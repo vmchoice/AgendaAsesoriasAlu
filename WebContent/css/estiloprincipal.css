@@ -1,0 +1,304 @@
+
+/* �ltimos elementos */
+
+/* margin: length|auto|initial|inherit;*/
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	align-self: left;
+}
+section, footer, aside, figure, figcaption, hgroup, header, body {
+	display: block;
+}
+article {
+	display: block;
+	color: #212121;
+}
+
+html {
+	width:  100%;
+	height: 100%;
+}
+body {
+	overflow-x: hidden;
+	background-color: #EEEEEE;
+	color: #E0E0E0;
+    font: 14px/2 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	/*line-height: 50px;
+	vertical-align: middle;*/
+}
+#logo {
+	margin-top: 10px;
+	max-height: 100%;
+	max-width: 300px;
+}
+#herramientas {
+	margin: 0 40px;
+	background: #202020;
+	text-transform: uppercase;
+	position: relative;
+	min-width: 900px;
+	word-break: keep-all;
+}
+header {
+	height: auto;
+	background: #202020;
+	padding: 5px;
+	display: block;
+	position: relative;
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#mainContent {
+	padding: 5px;
+	height: 100%;
+}
+#sideContent {
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 10px;
+	margin-left: 5px;
+	background: #546E7A;
+	min-height: 200px;
+	height: 100%;
+}
+#contenedorIngresar {
+	background-color: #546E7A;
+    margin: 5px;
+    padding: 10px;
+}
+#contenedorRegistrar {
+	display: none;
+	background-color: #546E7A;
+    margin: 5px;
+    padding: 10px;
+}
+
+/*
+* {
+border: 1px solid #999999;
+margin: 10px 5px 15px 20px;  
+padding: 10px 5px 15px 20px; 
+}
+*/
+
+
+h1 {
+	padding: 5px;
+	background-color: #546E7A;
+    font: bold 20px verdana, sans-serif;
+   }
+
+h2 {
+    font: bold 14px verdana, sans-serif;
+   }
+/*
+font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;
+font-style: normal|italic|oblique|initial|inherit;
+font-variant: normal|small-caps|initial|inherit;
+font-weight: normal|bold|bolder|lighter|number|initial|inherit;
+font-size:medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;
+font-family: family-name|generic-family|initial|inherit; */
+
+
+
+/*
+text-align: left|right|center|justify|initial|inherit;
+*/
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+.child {
+  margin-top: auto;
+}
+#agrupar {
+			width: 960px;
+			margin: 15px auto;
+			text-align: left;
+		}
+
+#menu {
+	padding: 5px 10px;
+	text-align: left;
+	display: inline-block;
+}
+#menu ul {
+	white-space: normal;
+    list-style: none;
+}
+#menu li {
+	padding: 0 6px;
+	font: 700 17px/60px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	float: left;
+	position: relative;
+}
+#menu a{
+	color: #E0E0E0;
+	display: block;
+	height: 60px;
+	text-decoration: none;
+}
+#menu a:hover {
+    color: #fe6c00;
+    text-decoration: none;
+}
+#menuAsesorias a {
+	color: #DFC9F3; 
+	text-decoration: underline;
+}
+#menuAsesorias a:hover {
+    color: #fe6c00;
+    text-decoration: none;
+}
+.elementoLista {
+	border-collapse: collapse;
+}
+/*input {
+
+  width: 100px;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}*/
+input:invalid{
+  width: 100%;
+  min-height: 20px;
+  border-color: #900;
+  background-color: #FDD;
+}
+input:focus:invalid {
+  outline: none;
+}
+textarea:invalid{
+  width: 100%;
+  min-height: 20px;
+  border-color: #900;
+  background-color: #FDD;
+}
+textarea:focus:invalid {
+  outline: none;
+}
+.button {
+	width: auto;
+	height: 25px;
+	padding: 5px;
+}
+#seccion {
+	float: left;
+	width: 660px;
+	margin: 20px;
+}
+
+#columna {
+	float: left;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 20px;
+	background: #CCCCCC;
+}
+
+
+#pie {
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid #999999;
+}
+
+
+
+article {
+	background: #546E7A;
+	border: 1px solid #999999;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+article input {    
+    display: inline;
+    width: auto;
+}
+article button {    
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.renglonReducido {
+	vertical-align: top;
+	white-space: nowrap;
+}
+time {
+	color: #E0E0E0;
+}
+figcaption {
+	font: italic 14px verdana, sans-serif;
+}
+.error {
+  padding: 0;
+ 
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+ 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.error.active {
+	max-width: 100px;
+	padding: 0.3em;
+	display: flex;
+}
+p * {
+  display: block;
+}
+span {
+  	display: flex;
+}
+
+#capaBloqueo{ 
+	display: none; 
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	z-index: 90; 
+	width: 100%; 
+	height: 100%;
+	background-image: url(../img/capaTrans.png); 
+}
+#solicitarAsesoria{
+	display: none;
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    margin-left: -150px;
+    margin-top: -150px;
+	background-color: #546E7A;
+	padding: 10px;
+	border-bottom: 2px solid #eee;
+	border-right: 2px solid #eee;
+}
+div input {
+
+/*width: 100%;*/
+
+height: 21px;
+
+box-sizing: border-box;
+}
